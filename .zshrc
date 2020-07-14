@@ -2,8 +2,8 @@ export LANG="en_US.UTF-8"
 export LC_ALL="en_US.UTF-8"
 export EDITOR="vim"
 # Path to your oh-my-zsh installation.
-export DOTFILES=$HOME/.dotfiles
-export ZSH="$DOTFILES/.oh-my-zsh"
+export DOTCONFIGS=$HOME/.dotconfigs
+export ZSH="$DOTCONFIGS/.oh-my-zsh"
 
 COMPLETION_WAITING_DOTS="true"
 
