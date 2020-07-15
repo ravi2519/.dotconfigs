@@ -14,3 +14,13 @@ $ cd
 $ git clone https://github.com/gpakosz/.tmux.git
 $ curl 'https://raw.githubusercontent.com/ravi2519/.dotconfigs/master/.tmux.conf' -o ~/.tmux.conf
 ```
+
+### Bash for FreeBSD
+
+```sh
+$ cd
+$ curl 'https://raw.githubusercontent.com/ravi2519/.dotconfigs/master/.bash_profile' -o ~/.bash_profile
+$ curl 'https://raw.githubusercontent.com/ravi2519/.dotconfigs/master/.dir_colors' -o ~/.dir_colors
+$ sr chsh -s /usr/local/bin/bash ${whoami}
+$ source .bash_profile
+```
